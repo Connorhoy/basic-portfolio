@@ -39,7 +39,7 @@ h1 {
 
 img {
     float: left;
-    margin: 0 0 10px 10px;
+    margin: 30px;
 }
 
 h2 {
@@ -53,9 +53,10 @@ body {
 
 .imgtext {
     float: center;
-    width: 320px;
+    width: 650px;
     padding: 1px;
     border: 1px solid gray;
     margin: 0; 
     background-color: #ffffff;
+    color: #777777;
 }
