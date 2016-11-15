@@ -7,6 +7,8 @@ ul.topnav {
     background-color: #ffffff;
     border-top: solid #cccccc;
     border-bottom: solid #cccccc;
+    margin-bottom: 40px;
+    margin-top: 0px;
 }
 
 /* Float the list items side by side */
@@ -35,16 +37,40 @@ ul.topnav li.icon {display: none;}
 
 h1 {
     color: #4aaaa5;
+    font-family: Times;
 }
 
 img {
-    float: left;
-    margin: 30px;
+   display: inline-block;
+   margin: 5px 25px;
+   float: left;
 }
 
-h2 {
+.header2 {
     color: #4aaaa5;
+    margin: 25px;
     border-bottom: 3px solid lightgrey;
+    font-family: Times;
+}
+
+.header3 {
+    color: #4aaaa5;
+    font-family: Times;
+}
+
+.contact {
+    position: absolute;
+    left: 1100px;
+    top: 18px;
+    width: 200px;
+    padding: 1px;
+    border: 1px solid grey;
+    margin-top: 0;
+    margin-bottom: 50;
+    background-color: #ffffff;
+    color: #777777;
+    font-family: arial;
+    position: relative;
 }
 
 body {
@@ -52,11 +78,17 @@ body {
 }
 
 .imgtext {
-    float: center;
-    width: 650px;
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    width: 700px;
+    height: 450px;
     padding: 1px;
     border: 1px solid gray;
     margin: 0; 
     background-color: #ffffff;
     color: #777777;
+    font-family: arial;
+    font-size: 17px;
+
 }
