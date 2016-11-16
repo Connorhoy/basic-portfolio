@@ -1,49 +1,25 @@
-/* Remove margins and padding from the list, and add a black background color */
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    border-top: solid #cccccc;
-    border-bottom: solid #cccccc;
-    margin-bottom: 40px;
-    margin-top: 0px;
-}
-
-/* Float the list items side by side */
-ul.topnav li {float: left;}
-
-/* Style the links inside the list items */
-ul.topnav li a {
-    display: inline-block;
-    color: ##777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #555;}
-
-/* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
-
-.floatright {
-    float: right;
-}
-
 h1 {
     color: #4aaaa5;
     font-family: Times;
+    box-sizing: border-box;
+    display: flex;
 }
 
-img {
+.img1 {
    display: inline-block;
    margin: 5px 25px;
    float: left;
+}
+
+.img2 {
+    display: inline-block;
+   margin: 5px 25px;
+   float: right;
+}
+
+.header1 {
+   float: left;
+   font-family: Times;
 }
 
 .header2 {
@@ -56,25 +32,21 @@ img {
 .header3 {
     color: #4aaaa5;
     font-family: Times;
+    border-bottom: 3px solid lightgrey;
 }
 
-.contact {
+.connect {
     position: absolute;
-    left: 1100px;
-    top: 18px;
-    width: 200px;
+    left: 900px;
+    top: 150px;
+    width: 300px;
+    height: 200px;
     padding: 1px;
+    margin: 0;
     border: 1px solid grey;
-    margin-top: 0;
-    margin-bottom: 50;
     background-color: #ffffff;
     color: #777777;
     font-family: arial;
-    position: relative;
-}
-
-body {
-    background-image: url("http://i.imgur.com/BfZ3euo.png");
 }
 
 .imgtext {
@@ -90,5 +62,34 @@ body {
     color: #777777;
     font-family: arial;
     font-size: 17px;
+
+}
+
+body {
+    background-image: url("http://i.imgur.com/BfZ3euo.png");
+}
+
+#headerlinks {
+    top: 30px;
+    right: 170px;
+    position: fixed;
+    height: 30px;
+    width: 400px;
+    font: 11px;
+}
+li {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    background: #4aaaa5;
+    padding: 30px;
+    width: 300px;
+    color: #ffffff;
+    margin-left: 120px;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    text-align: center;
 
 }
