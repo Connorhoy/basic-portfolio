@@ -105,37 +105,37 @@ nav a:hover {
 .github {
     width: 15px;
     height: 15px;
-    margin-left: 10px;
     position: relative;
+    left: 900px;
+    top: 200px;
 }
 
 .linkedin {
     width: 0px;
     height: 0px;
     position: relative;
-    left: 990px;
-    top: 190px;
+    left: 970px;
+    top: 186px;
 }
 
 .stack {
     width: 15px;
     height: 15px;
-    margin-left: 10px;
     position: relative;
+    left: 1040px;
+    top: 186px;
 }
 
 .connect-with-me {
-    width: 370px;
-    height: 200px;
+    width: 300px;
+    height: 160px;
     left: 900px;
     top: 145px;
     border: 1px solid gray;
     position: absolute;
     background-color: #fff;
-    padding: 10px;
-    padding-right: 0px;
+    padding: 1px;
     vertical-align: top;
-    margin-left: 10px;
 }
 
 .imgbuttons {
