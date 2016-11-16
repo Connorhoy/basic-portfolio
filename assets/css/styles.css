@@ -7,7 +7,7 @@ header {
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
     box-sizing: border-box;
     border: 1px solid #cccccc;
     position: absolute;
@@ -34,18 +34,26 @@ h1 {
 }
 
 nav {
-    display: inline-block;
     position: absolute;
     top: 30px;
-    left: 780px;
+    left: 790px;
     color: grey;
-    font-size: 20px;
+    font-size: 16px;
+    padding: 5px;   
 }
+
 
 a {
     color: #cccccc;
     text-decoration: none;
     margin: 0px 10px 0px 10px;
+    font-family:'Georgia', Times, 'Times New Roman', serif ;
+}
+
+nav a:hover {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: #ffffff;
 }
 
 .img1 {
