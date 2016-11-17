@@ -41,6 +41,14 @@ nav {
     font-size: 16px;
     padding: 5px;   
 }
+.indexnav {
+    position: absolute;
+    top: 30px;
+    left: 840px;
+    color: grey;
+    font-size: 16px;
+    padding: 5px;   
+}
 
 
 a {
