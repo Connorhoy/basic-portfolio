@@ -107,24 +107,24 @@ nav a:hover {
     width: 15px;
     height: 15px;
     position: relative;
-    left: 820px;
-    top: 200px;
+    left: 700px;
+    top: -595px;
 }
 
 .linkedin {
     width: 0px;
     height: 0px;
     position: relative;
-    left: 900px;
-    top: 186px;
+    left: 775px;
+    top: -610px;
 }
 
 .stack {
     width: 15px;
     height: 15px;
     position: relative;
-    left: 980px;
-    top: 186px;
+    left: 850px;
+    top: -610px;
 }
 
 .connect-with-me {
@@ -145,3 +145,62 @@ nav a:hover {
     margin-top: 15px;
 }
 
+/* End of CSS work for index.html.*/
+
+/* Beginning of work for contact.html */
+
+.contactform {
+    display: inline-block;
+    left: 110px;
+    top: 150px;
+    width: 650px;
+    height: 500px;
+    position: relative;
+    border: solid 1px #cccccc;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #888888;
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+input {
+    padding: 10px;
+    width: 90%;
+    color: #cccccc;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+button {
+    border: none;
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#message {
+    padding-left: 10px; 
+    margin-left: 15px;
+}
+
+.connect-with-me2 {
+    width: 270px;
+    height: 150px;
+    left: 700px;
+    top: -495px;
+    border: 1px solid gray;
+    position: relative;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
