@@ -36,7 +36,7 @@ h1 {
 nav {
     position: absolute;
     top: 30px;
-    left: 770px;
+    left: 720px;
     color: grey;
     font-size: 16px;
     padding: 5px;   
@@ -83,7 +83,8 @@ nav a:hover {
     border-right: none;
     border-top: none;
     padding-bottom: 10px;
-    margin-right: 60px;
+    padding-top: 5px;
+    margin-right: 5px;
     margin-top: 10px;
 }
 
@@ -91,7 +92,7 @@ nav a:hover {
     position: absolute;
     left: 120px;
     top: 150px;
-    width: 710px;
+    width: 650px;
     height: 450px;
     padding: 10px;
     border: 1px solid gray;
@@ -106,7 +107,7 @@ nav a:hover {
     width: 15px;
     height: 15px;
     position: relative;
-    left: 900px;
+    left: 820px;
     top: 200px;
 }
 
@@ -114,7 +115,7 @@ nav a:hover {
     width: 0px;
     height: 0px;
     position: relative;
-    left: 970px;
+    left: 900px;
     top: 186px;
 }
 
@@ -122,15 +123,15 @@ nav a:hover {
     width: 15px;
     height: 15px;
     position: relative;
-    left: 1040px;
+    left: 980px;
     top: 186px;
 }
 
 .connect-with-me {
-    width: 300px;
-    height: 160px;
-    left: 900px;
-    top: 145px;
+    width: 270px;
+    height: 150px;
+    left: 830px;
+    top: 150px;
     border: 1px solid gray;
     position: absolute;
     background-color: #fff;
