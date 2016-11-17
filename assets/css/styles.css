@@ -156,7 +156,7 @@ nav a:hover {
     width: 650px;
     height: 500px;
     position: relative;
-    border: solid 1px #cccccc;
+    border: solid 1px grey;
     background-color: #fff;
     padding-top: 20px;
 }
@@ -204,3 +204,79 @@ button {
     padding: 1px;
     vertical-align: top;
 }
+
+/* End of contact page CSS */
+
+/* Beginning of portfolio page CSS */
+.connect-with-me3 {
+    width: 270px;
+    height: 150px;
+    top: 25;
+    left: 900px;
+    border: 1px solid gray;
+    position: absolute;
+    background-color: #fff;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.portfolio {
+    display: inline-block;
+    width: 650px;
+    height: 750px;
+    left: 110px;
+    top: 150px;
+    position: relative;
+    border: solid 1px grey;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.portfolioheader {
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+figure {
+
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.portfolio-anchor {
+    margin: 0 auto;
+}
+
+.portfolio-box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.portfolio-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.portfolio-box-banner {
+    width: 99%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 0px;
+}
+
+h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
